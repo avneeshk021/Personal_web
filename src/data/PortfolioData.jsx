@@ -3,8 +3,6 @@ import Admin_dashboard from '../assets/Project-2.png'
 import Marval from '../assets/Project-3.png'
 import Portfolio from '../assets/project-4 (1).png'
 import Avtar_Api from '../assets/project-6.png'
-// import moviecard from '../assets/project-1 (1).png'
-// import dishes from '../assets/project-4.png'
 import foodieweb from '../assets/project-6.png'
 export const PortfolioData = [
     {
@@ -49,18 +47,5 @@ export const PortfolioData = [
         website:'marvelssapp.vercel.app',
         github: 'https://github.com/avneeshk021/marvelssapp'
     },
-    // {
-    //     id:7,
-    //     image: moviecard,
-    //     description:'TMDB-api, React,Fetch, useEffect-Hook, Css3',
-    //     website:'movie-cardreact.netlify.app/',
-    //     github: 'https://github.com/EvansRobbie/ReactMovieCard'
-    // },
-    // {
-    //     id:8,
-    //     image: dishes,
-    //     description:'React, React-context-api, useState, axios, Custome-hook, css3',
-    //     website:'dishrecipes.netlify.app/',
-    //     github: 'https://github.com/EvansRobbie/dishRecipes'
-    // },
+    
 ]
