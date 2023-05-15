@@ -12,7 +12,7 @@ const About = () => {
                 <img className='w-full h-full -rotate-[45deg] hover:rotate-0 rounded-xl duration-300' src={theme === 'dark' ? aboutImage : robbie} alt="/" />
             </div>
             <div className='py-10 md:pl-10 lg:pl-0 '>
-               <p>React developer with a great passion for accessibility and creating excellent sites. I’m passionate about software development and look forward to working on new projects in the near future. Over the years, I have worked with professionals in this field to produce in-house and off-the-shelf software and applications.</p>
+               <p>React developer with a great passion for accessibility and creating excellent sites. I’m passionate about software development and look forward to working on new projects in the near future. Over the years.</p>
             </div>
         </div>
     </div>
