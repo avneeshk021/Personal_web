@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import {FaFacebookF, FaWhatsapp} from 'react-icons/fa'
+import {faTwitter, FaWhatsapp} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import emailjs from 'emailjs-com';
 
@@ -33,9 +33,14 @@ const Contacts = () => {
                     <a href="https://" target ='_blank'  rel="noreferrer" className='text-sm hidden md:block text-teal-500'>Send a message</a>
                 </div>
                 <div className='rounded-div w-[100px] group  h-[100px] md:w-[150px] md:h-[150px] flex flex-col items-center justify-center hover:border-4   hover:shadow-teal-500 duration-300 hover:drop-shadow-xl'>
-                    <FaFacebookF size={30} className=' group-hover:scale-110  duration-300 ease-in delay-100'  />
-                    <h4 className='hidden md:block text-sm py-2'>Avneesh Kumar</h4>
-                    <a href="/" className='text-sm hidden md:block text-teal-500'>Send a message</a>
+                    <faTwitter size={30} className=' group-hover:scale-110  duration-300 ease-in delay-100'  />
+                    <h4 className='hidden md:block text-sm py-2'>Twitter</h4>
+                    <a href="https://twitter.com/kavneesh_021" className='text-sm hidden md:block text-teal-500'>Send a message</a>
+                    </div>
+                    <div className='rounded-div w-[100px] group h-[100px] md:w-[150px] md:h-[150px] flex flex-col items-center justify-center hover:border-4  hover:shadow-teal-500 duration-300 hover:drop-shadow-xl'>
+                    <faInstagram size={30} className=' group-hover:scale-110 duration-300 ease-in delay-100'  />
+                    <h4 className='hidden md:block text-sm py-2'>Instagram</h4>
+                    <a href="https://" target ='_blank'  rel="noreferrer" className='text-sm hidden md:block text-teal-500'>Send a message</a>
                 </div>      
             </div>
                 <form ref={form} onSubmit={sendEmail}>

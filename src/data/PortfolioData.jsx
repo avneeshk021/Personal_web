@@ -1,4 +1,4 @@
-import foodieweb2 from '../assets/project-1 (1).png'
+// import foodieweb2 from '../assets/project-1 (1).png'
 import Admin_dashboard from '../assets/Project-2.png'
 import Marval from '../assets/Project-3.png'
 import Portfolio from '../assets/project-4 (1).png'
@@ -35,10 +35,10 @@ export const PortfolioData = [
     },
     {
         id:5,
-        image: foodieweb2,
-        description:'React, Context-api, Reducer, React-hot-toast, Tailwind',
-        website:'online-food-website-one.vercel.app',
-        github: 'https://github.com/avneeshk021/online-food-website'
+        image: Tic-toe,
+        description:' Basic React,  Reducer, React-hot-toast, Tailwind',
+        website:'//',
+        github: 'https://github.com/avneeshk021/LearnReact'
     },
     {
         id:6,
